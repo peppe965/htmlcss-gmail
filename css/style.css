@@ -1,0 +1,144 @@
+*{
+  margin:auto;
+}
+body{
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+#line-up {
+  border: 2px solid white;
+}
+
+#container{
+  width: 60%;
+  margin-top: 3%;
+}
+
+/* inizio sezione intestazione con logo */
+
+header{
+  background: #BEBEBE;
+}
+
+#header{
+  line-height: 90px;
+  padding: 20px;
+}
+
+#gmail-logo{
+  height: 90px;
+  vertical-align: top;
+}
+
+#text-logo{
+  display: inline;
+  font-size: 58px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+/* fine sezione intestazione con logo */
+/* inizio sezione casella ricerca */
+#search{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#search-box{
+  width: 80%;
+  height: 30px;
+  border: 1px solid black;
+}
+
+#search button{
+  width: 10%;
+  height: 30px;
+}
+/* fine sezione casella ricerca */
+
+/* inizio sezione counter */
+#counter{
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#counter span{
+  background: orange;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.line{
+  border: 2px solid white;
+}
+/* fine sezione counter */
+
+/* inizio sezione mail */
+
+.email{
+  color: black;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+.unread{
+  background-color: grey;
+  }
+.read{
+  background-color: lightgrey;
+}
+.row-left, .row-right{
+  display: inline-block;
+
+}
+
+.row-left{
+  width:30%;
+  height: 40px;
+}
+
+.row-right{
+  width:69%;
+  height: 40px;
+}
+div > .body:after{
+  content:"..."
+}
+
+.subject{
+  font-size: 25px;
+
+}
+
+.body{
+    font-size: 25px;
+}
+.star{
+  color: yellow;
+  font-size: 25px;
+}
+.nostar{
+  color: white;
+  font-size: 25px;
+}
+
+/* fine sezione imcasinata di mail */
+
+/* pie di pagina */
+footer{
+  width: 1300px;
+  margin: auto;
+  text-align: center;
+}
+
+.foot{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 38px;
+  margin-top: 10px;
+  color: grey;
+  font-weight: bolder;
+
+}
